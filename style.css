@@ -1,0 +1,32 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 50px;
+}
+
+.btn{
+    margin: 50px;
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    background-color: blue;
+    outline: none;
+}
+
+
+.btn:hover{
+    transform: scale(1,1);
+    border-color: goldenrod;
+}
+
+.text{
+    margin-top: 50px;
+}
+
+#result{
+    font-size: 10px;
+    align-content: center;
+    justify-content: center;
+}
